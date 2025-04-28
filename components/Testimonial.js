@@ -52,12 +52,38 @@ export default function Testimonial() {
         </h2>
         <button className="button-trans">View All</button>
       </div>
-      <div className="col-span-2 overflow-hidden">
+      <div className="col-span-2 overflow-hidden hidden md:block">
         <Carousel className="w-full">
           <CarouselContent
             className="flex transition-transform duration-700 ease-in-out"
             style={{
               transform: `translateX(-${(currentSlide / 3) * 100}%)`,
+            }}
+          >
+            {testimonials.map((item, index) => (
+              <CarouselItem
+                key={index}
+                className="basis-full md:basis-1/3 flex justify-center"
+              >
+                <video
+                  ref={(el) => (videoRefs.current[index] = el)}
+                  src={item.videoUrl}
+                  className="w-full h-auto object-cover rounded"
+                  muted
+                  loop
+                  playsInline
+                />
+              </CarouselItem>
+            ))}
+          </CarouselContent>
+        </Carousel>
+      </div>
+      <div className="col-span-2 overflow-hidden md:hidden">
+        <Carousel className="w-full">
+          <CarouselContent
+            className="flex transition-transform duration-700 ease-in-out"
+            style={{
+              transform: `translateX(-${(currentSlide / 1) * 100}%)`,
             }}
           >
             {testimonials.map((item, index) => (
