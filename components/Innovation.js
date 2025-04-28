@@ -3,7 +3,7 @@ import React from "react";
 
 function Innovation() {
   return (
-    <section className="container1 py-10 pt-0 grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+    <section className="container1 py-14 pt-0 grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
       <div>
         <Image
           src={"/innovation.png"}

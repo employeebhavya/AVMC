@@ -43,7 +43,7 @@ const topics = [
 
 function Leaders() {
   return (
-    <section className="container1 py-12">
+    <section className="container1 py-14">
       <div className="flex justify-between items-center flex-wrap gap-4 mb-8">
         <div>
           <h2 className="text-4xl md:text-5xl font-bold text-secondary">

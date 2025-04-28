@@ -30,7 +30,7 @@ const Event = [
 
 function Events() {
   return (
-    <section className="container1 py-10 pt-0">
+    <section className="container1 py-14 pt-0">
       <h2 className="text-4xl md:text-5xl font-bold text-secondary mb-6">
         Events
       </h2>

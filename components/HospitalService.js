@@ -3,7 +3,7 @@ import React from "react";
 
 function HospitalService() {
   return (
-    <section className="container1 py-10 pt-0 grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+    <section className="container1 py-16 pt-0 grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
       <div>
         <h2 className="text-4xl md:text-5xl font-bold text-secondary mb-3">
           Hospital Services

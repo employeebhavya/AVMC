@@ -19,23 +19,35 @@ export default function Footer() {
               />
             </div>
             <div className="text-white">
-              <p className="mb-2 txt1">FOLLOW US:</p>
-              <div className="flex gap-4">
+              <p className="mb-6 txt1">FOLLOW US:</p>
+              <div className="flex gap-4 items-center">
                 {/* Using Unicode characters for social icons */}
-                <Link href={"#"} className="text-lg">
-                  <Linkedin />
+                <Link
+                  href={"#"}
+                  className="text-lg hover:scale-200 transition-all duration-300"
+                >
+                  <Linkedin size={25} />
                 </Link>{" "}
                 {/* LinkedIn */}
-                <Link href={"#"} className="text-lg">
-                  <Youtube />
+                <Link
+                  href={"#"}
+                  className="text-lg hover:scale-200 transition-all duration-300"
+                >
+                  <Youtube size={25} />
                 </Link>{" "}
                 {/* Some icon */}
-                <Link href={"#"} className="text-lg">
-                  <Instagram />
+                <Link
+                  href={"#"}
+                  className="text-lg hover:scale-200 transition-all duration-300"
+                >
+                  <Instagram size={20} />
                 </Link>{" "}
                 {/* Some icon */}
-                <Link href={"#"} className="text-lg">
-                  <Facebook />
+                <Link
+                  href={"#"}
+                  className="text-lg hover:scale-200 transition-all duration-300"
+                >
+                  <Facebook size={20} />
                 </Link>{" "}
                 {/* Facebook */}
               </div>

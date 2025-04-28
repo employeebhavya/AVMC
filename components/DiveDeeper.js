@@ -18,7 +18,7 @@ const topics = [
 
 function DiveDeeper() {
   return (
-    <section className="container1 py-10 pt-0">
+    <section className="container1 py-14 pt-0">
       <div className="flex justify-between items-center flex-wrap gap-4 mb-6">
         <div>
           <h2 className="text-4xl md:text-5xl font-bold text-secondary mb-3">
@@ -46,7 +46,7 @@ function DiveDeeper() {
                     height={350}
                     className="w-full h-auto object-cover"
                   />
-                  <h3 className="font-medium text-secondary text-b 2xl:text-xl absolute bottom-0 left-0 bg-white bg-opacity-80 p-2 w-64 h-auto">
+                  <h3 className="font-medium text-secondary text-b 2xl:text-xl absolute bottom-0 left-0 bg-white bg-opacity-80 p-2 w-[82%] h-auto">
                     {topic.title}
                   </h3>
                 </div>

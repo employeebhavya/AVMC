@@ -3,7 +3,7 @@ import React from "react";
 
 function Chancellor() {
   return (
-    <section className="py-12 bg-[#f5f5f5]">
+    <section className="py-14 bg-[#f5f5f5]">
       <div className="container1 grid grid-cols-1 md:grid-cols-3 gap-8 items-center">
         <div className="col-span-2">
           <h2 className="text-4xl md:text-5xl font-bold text-secondary mb-3">

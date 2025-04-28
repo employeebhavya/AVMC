@@ -50,7 +50,7 @@ export default function Testimonial() {
   };
 
   return (
-    <section className="container1 py-12 grid grid-cols-1 md:grid-cols-3 gap-6">
+    <section className="container1 py-16 pt-0 grid grid-cols-1 md:grid-cols-3 gap-6">
       <div className="col-span-1 flex flex-col justify-between items-start flex-wrap gap-4 mb-8">
         <h2 className="text-4xl md:text-5xl font-bold text-secondary">
           What students & faculty say about AVMC
