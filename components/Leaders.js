@@ -69,7 +69,7 @@ function Leaders() {
                     className="w-full h-auto object-cover"
                   />
                   <div className="absolute -bottom-30 left-7 p-3 w-[80%] h-[148px] bg-white">
-                    <h3 className="txt font-semibold mb-1">{topic.title}</h3>
+                    <h3 className="txt font-bold mb-1">{topic.title}</h3>
                     <p className="text-sm">
                       {topic.designation.split(",")[0]}
                       <br />

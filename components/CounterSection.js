@@ -7,19 +7,19 @@ export function CounterSection() {
     <section className="container1 py-14 grid grid-cols-2 md:flex md:justify-between gap-4">
       <div className="flex items-center gap-2">
         <GraduationCap className="txt text-primary" />
-        <span className="txt">1800+ Students</span>
+        <span className="text-sm md:txt">1800+ Students</span>
       </div>
       <div className="flex items-center gap-2">
         <LandPlot className="txt text-primary" />
-        <span className="txt">30+ Acre of Land</span>
+        <span className="text-sm md:txt">30+ Acre of Land</span>
       </div>
       <div className="flex items-center gap-2">
         <ClipboardList className="txt text-primary" />
-        <span className="txt">20+ Programmes</span>
+        <span className="text-sm md:txt">20+ Programmes</span>
       </div>
       <div className="flex items-center gap-2">
         <BookUser className="txt text-primary" />
-        <span className="txt">Top Notch Facilities</span>
+        <span className="text-sm md:txt">Top Notch Facilities</span>
       </div>
     </section>
   );

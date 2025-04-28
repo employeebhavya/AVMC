@@ -22,8 +22,11 @@ export const Hero = () => {
       <div className="container1 relative z-10 h-full flex items-center">
         <div className="text-left max-w-xl">
           {/* Top Text */}
-          <div className="text-white text-sm md:text-lg font-light tracking-widest mb-2 drop-shadow-sm">
+          <div className="text-white text-sm md:text-lg font-light tracking-widest mb-2 drop-shadow-sm hidden md:block">
             COMPASSIONATE CARE, EXCEPTIONAL EDUCATION
+          </div>
+          <div className="text-white text-sm md:text-lg font-light tracking-widest mb-2 drop-shadow-sm md:hidden">
+            COMPASSIONATE CARE,<br></br> EXCEPTIONAL EDUCATION
           </div>
           {/* Main Heading */}
           <h1 className="text-white text-4xl md:text-6xl -tracking-[3px] font-bold mb-4 leading-tight drop-shadow-md">

@@ -7,8 +7,8 @@ export default function NewsTicker() {
   const newsItems = useMemo(
     () => [
       { text: "Admissions 2025-2026 - Applications Open", href: "/admissions" },
-      { text: "SRMEEE (UG) 2025 - Applications Open", href: "/srmeee" },
-      { text: "SRMEEM (MBA) 2025 - Applications Open", href: "/srmeem" },
+      { text: "AVMC (UG) 2025 - Applications Open", href: "/AVMC" },
+      { text: "AVMC (MBA) 2025 - Applications Open", href: "/AVMC" },
       {
         text: "Law (UG Integrated) 2025 - Applications Open",
         href: "/law-admissions",

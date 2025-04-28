@@ -30,10 +30,10 @@ function HospitalService() {
           height={517}
           className="w-full h-auto object-cover"
         />
-        <button className="button-bg w-56 absolute bottom-5 left-10">
+        <button className="text-[12px] button-bg w-36 md:w-56 absolute bottom-5 left-2 md:left-10">
           View Attendance
         </button>
-        <button className="button-bg w-56 absolute bottom-5 right-10">
+        <button className="text-[12px] button-bg w-36 md:w-56 absolute bottom-5 right-2 md:right-10">
           View Clinical Material
         </button>
       </div>
