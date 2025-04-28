@@ -5,10 +5,10 @@ function Topbar() {
   return (
     <section className="bg-topbar">
       <div className="container1 py-1 text-white flex justify-end items-center gap-4">
-        <Link className="text-lg" href="mailto:dean@avmc.edu.in">
+        <Link className="text-base" href="mailto:dean@avmc.edu.in">
           dean@avmc.edu.in
         </Link>
-        <Link className="text-lg" href="tel:04132611245">
+        <Link className="text-base" href="tel:04132611245">
           Call Us: 0413-2611245
         </Link>
       </div>

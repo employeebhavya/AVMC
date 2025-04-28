@@ -8,6 +8,7 @@ import HomeCTA from "@/components/HomeCTA";
 import HospitalService from "@/components/HospitalService";
 import Innovation from "@/components/Innovation";
 import Leaders from "@/components/Leaders";
+import MobileTestimonial from "@/components/MobileTestimonial";
 import NewsTicker from "@/components/NewsTicker";
 import Testimonial from "@/components/Testimonial";
 
@@ -24,7 +25,12 @@ export default function Home() {
       <Chancellor />
       <Leaders />
       <HospitalService />
-      <Testimonial />
+      <div className="hidden md:block">
+        <Testimonial />
+      </div>
+      <div className="md:hidden">
+        <MobileTestimonial />
+      </div>
       <HomeCTA />
     </div>
   );

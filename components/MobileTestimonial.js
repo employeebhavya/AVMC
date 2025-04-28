@@ -15,7 +15,7 @@ const testimonials = [
   { videoUrl: "/avmc2.mp4" },
 ];
 
-export default function Testimonial() {
+export default function MobileTestimonial() {
   const videoRefs = useRef([]);
   const [currentSlide, setCurrentSlide] = useState(0);
 
@@ -57,7 +57,7 @@ export default function Testimonial() {
           <CarouselContent
             className="flex transition-transform duration-700 ease-in-out"
             style={{
-              transform: `translateX(-${(currentSlide / 3) * 100}%)`,
+              transform: `translateX(-${(currentSlide / 1) * 100}%)`,
             }}
           >
             {testimonials.map((item, index) => (

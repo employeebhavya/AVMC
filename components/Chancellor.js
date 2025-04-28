@@ -6,9 +6,18 @@ function Chancellor() {
     <section className="py-14 bg-[#f5f5f5]">
       <div className="container1 grid grid-cols-1 md:grid-cols-3 gap-8 items-center">
         <div className="col-span-2">
-          <h2 className="text-4xl md:text-5xl -tracking-[3px] font-bold text-secondary mb-3">
+          <h2 className="text-4xl md:text-5xl -tracking-[3px] font-bold text-secondary mb-4">
             Chancellor&apos;s Message
           </h2>
+          <div className="col-span-1 md:hidden mb-4">
+            <Image
+              src={"/chancellor.png"}
+              alt="chancellor"
+              width={411}
+              height={475}
+              className="w-full h-auto object-cover"
+            />
+          </div>
           <p className="txt mb-3 text-justify">
             Aarupadai Veedu Medical College and Hospital offers patient care,
             diagnostic, rehabilitative, preventive and pharmacy services. With
@@ -31,7 +40,7 @@ function Chancellor() {
             (Deemed to be University)
           </p>
         </div>
-        <div className="col-span-1">
+        <div className="col-span-1 hidden md:block">
           <Image
             src={"/chancellor.png"}
             alt="chancellor"

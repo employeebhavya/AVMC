@@ -27,7 +27,7 @@ export const Hero = () => {
           </div>
           {/* Main Heading */}
           <h1 className="text-white text-4xl md:text-6xl -tracking-[3px] font-bold mb-4 leading-tight drop-shadow-md">
-            Shaping Future Leaders in Medicine
+            Shaping Future <br></br> Leaders in Medicine
           </h1>
           {/* CTA Button */}
           <button className="button-bg">Learn more</button>

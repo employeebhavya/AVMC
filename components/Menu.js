@@ -58,7 +58,7 @@ export default function Menu() {
       {/* Mobile Menu */}
       {isMobileMenuOpen && (
         <div className="md:hidden absolute top-20 left-0 right-0 bg-white shadow-md z-40">
-          <div className="container mx-auto px-4 py-3">
+          <div className="container1 px-28 py-3">
             <div className="flex flex-col space-y-3">
               {navItems.map((item) => (
                 <Link

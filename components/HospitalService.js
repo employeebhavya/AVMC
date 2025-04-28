@@ -22,7 +22,7 @@ function HospitalService() {
           patient care services.
         </p>
       </div>
-      <div>
+      <div className="relative w-full h-auto overflow-hidden">
         <Image
           src={"/hospital.png"}
           alt="innovation"
@@ -30,6 +30,12 @@ function HospitalService() {
           height={517}
           className="w-full h-auto object-cover"
         />
+        <button className="button-bg w-56 absolute bottom-5 left-10">
+          View Attendance
+        </button>
+        <button className="button-bg w-56 absolute bottom-5 right-10">
+          View Clinical Material
+        </button>
       </div>
     </section>
   );

@@ -62,7 +62,7 @@ function DiveDeeper() {
               height={216}
               className="w-full h-auto"
             />
-            <div className="absolute p-4 right-0 -bottom-20 bg-white w-[80%] h-[120px]">
+            <div className="absolute p-4 right-0 -bottom-16 bg-white w-[80%] h-[120px]">
               <div className="flex justify-between items-center mt-3 mb-3">
                 <p className="text-primary text-base capitalize">
                   {event.category}
