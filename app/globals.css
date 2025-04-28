@@ -135,10 +135,10 @@ body {
     @apply bg-transparent text-primary border border-primary hover:bg-primary hover:text-white w-40 h-12 rounded-full text-lg font-medium transition duration-300 cursor-pointer;
   }
   .txt {
-    @apply text-lg text-secondary leading-9;
+    @apply text-base 2xl:text-lg text-secondary leading-9;
   }
   .txt1 {
-    @apply text-lg leading-9;
+    @apply text-base 2xl:text-lg leading-9;
   }
 }
 
