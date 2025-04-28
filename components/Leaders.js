@@ -50,7 +50,7 @@ function Leaders() {
             Leaders at AVMC
           </h2>
         </div>
-        <button className="button-trans">View All</button>
+        <button className="button-trans hidden md:block">View All</button>
       </div>
       <div className="px-12 md:px-0">
         <Carousel>
@@ -84,6 +84,9 @@ function Leaders() {
           <CarouselPrevious className="bg-primary text-white rounded-none hover:bg-secondary hover:text-white" />
           <CarouselNext className="bg-primary text-white rounded-none hover:bg-secondary hover:text-white" />
         </Carousel>
+        <div className="flex justify-center items-center">
+          <button className="button-trans md:hidden">View All</button>
+        </div>
       </div>
     </section>
   );
