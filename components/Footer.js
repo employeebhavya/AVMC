@@ -178,7 +178,9 @@ export default function Footer() {
 
         {/* Bottom section */}
         <div className="border-t border-gray-300 pt-6 flex flex-col md:flex-row justify-between gap-4">
-          <p className="txt1">© 2025 Asunpadal Veedu Medical College</p>
+          <p className="txt1">
+            © 2025 Aarupadai Veedu Medical College & Hospital
+          </p>
           <div className="flex gap-4 txt1">
             <Link href="#" className="hover:text-primary">
               Site Map
