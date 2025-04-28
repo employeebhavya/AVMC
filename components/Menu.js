@@ -37,7 +37,7 @@ export default function Menu() {
           <Link
             key={item}
             href="#"
-            className="text-gray-700 text-base 2xl:text-xl hover:text-primary transition-colors"
+            className="text-gray-700 text-base 2xl:text-lg hover:text-primary transition-colors"
           >
             {item}
           </Link>
@@ -64,7 +64,7 @@ export default function Menu() {
                 <Link
                   key={item}
                   href="#"
-                  className="text-gray-700 text-base 2xl:text-xl hover:text-primary transition-colors py-2 px-2 rounded hover:bg-gray-50"
+                  className="text-gray-700 text-lg hover:text-primary transition-colors py-2 px-2 rounded hover:bg-gray-50"
                   onClick={() => setIsMobileMenuOpen(false)}
                 >
                   {item}

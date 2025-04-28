@@ -51,7 +51,10 @@ export default function NewsTicker() {
       onMouseEnter={() => setIsPaused(true)}
       onMouseLeave={() => setIsPaused(false)}
     >
-      <div ref={containerRef} className="relative w-full h-6">
+      <div
+        ref={containerRef}
+        className="relative w-full h-12 flex flex-col items-center justify-center"
+      >
         <div
           ref={tickerRef}
           className={`absolute whitespace-nowrap txt1 text-white ${

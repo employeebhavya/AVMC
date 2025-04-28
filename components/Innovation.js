@@ -14,10 +14,10 @@ function Innovation() {
         />
       </div>
       <div>
-        <h2 className="text-4xl md:text-5xl font-bold text-secondary mb-3">
+        <h2 className="text-4xl md:text-5xl -tracking-[3px] font-bold text-secondary mb-3">
           Knowledge Meets Innovation
         </h2>
-        <p className="txt">
+        <p className="txt text-justify">
           Aarupadai Veedu Medical College and Hospital offers patient care,
           diagnostic, rehabilitative, preventive and pharmacy services. With its
           fully equipped ICCU, ICU, PICU, NICU and high dependency areas,

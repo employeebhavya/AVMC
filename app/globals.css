@@ -126,19 +126,19 @@ body {
     @apply bg-background text-foreground;
   }
   .container1 {
-    @apply max-w-[90rem] mx-auto px-4;
+    @apply max-w-[76rem] 2xl:max-w-[85rem] mx-auto px-4;
   }
   .button-bg {
-    @apply bg-primary text-white hover:bg-secondary px-8 py-3 rounded-full text-base 2xl:text-xl font-medium transition duration-300 cursor-pointer;
+    @apply bg-primary text-white hover:bg-secondary w-40 h-12 rounded-full text-lg font-medium transition duration-300 cursor-pointer;
   }
   .button-trans {
-    @apply bg-transparent text-primary border border-primary hover:bg-primary hover:text-white px-8 py-3 rounded-full text-base 2xl:text-xl font-medium transition duration-300 cursor-pointer;
+    @apply bg-transparent text-primary border border-primary hover:bg-primary hover:text-white w-40 h-12 rounded-full text-lg font-medium transition duration-300 cursor-pointer;
   }
   .txt {
-    @apply text-base 2xl:text-xl text-secondary;
+    @apply text-lg text-secondary leading-9;
   }
   .txt1 {
-    @apply text-base 2xl:text-xl;
+    @apply text-lg leading-9;
   }
 }
 

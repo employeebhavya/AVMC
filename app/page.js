@@ -1,3 +1,4 @@
+import Accreditations from "@/components/Accreditations";
 import Chancellor from "@/components/Chancellor";
 import { CounterSection } from "@/components/CounterSection";
 import DiveDeeper from "@/components/DiveDeeper";
@@ -18,6 +19,7 @@ export default function Home() {
       <CounterSection />
       <DiveDeeper />
       <Events />
+      <Accreditations />
       <Innovation />
       <Chancellor />
       <Leaders />

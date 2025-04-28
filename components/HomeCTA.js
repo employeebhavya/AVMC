@@ -4,13 +4,13 @@ import React from "react";
 
 function HomeCTA() {
   return (
-    <section className="md:h-screen md:bg-[url('/1.jpg')] bg-cover bg-center bg-no-repeat relative">
-      <div className="w-full h-full relative">
-        <div className="md:absolute md:right-0 md:top-50 cursor-pointer bg-white md:w-[40%] h-auto p-8">
-          <h2 className="text-4xl md:text-5xl font-bold text-secondary mb-3">
+    <section className="md:h-screen md:bg-[url('/1.jpg')] bg-cover bg-center bg-no-repeat relative flex items-center">
+      <div className="w-full h-full relative flex items-center">
+        <div className="md:absolute md:right-0 md:top-1/2 md:-translate-y-1/2 cursor-pointer bg-white md:w-[50%] 2xl:w-[30%] h-auto p-8">
+          <h2 className="text-4xl md:text-5xl -tracking-[3px] font-bold text-secondary mb-3">
             Spanning the Bay
           </h2>
-          <p className="txt mb-6">
+          <p className="txt mb-6 text-justify">
             AVMC is a green campus with over 33% of the available area covered
             with lush greenery. A beautiful spa, well maintained gym, media
             rooms in the hostels, a serviceable supermarket, ATM, Cafeteria and
@@ -27,8 +27,10 @@ function HomeCTA() {
             <Map /> Get directions
           </p>
         </div>
+
+        {/* For mobile screens, show the image */}
         <Image
-          src={"/1.jpg"}
+          src="/1.jpg"
           alt="image"
           width={500}
           height={500}

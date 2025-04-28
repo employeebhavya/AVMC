@@ -46,13 +46,13 @@ function Leaders() {
     <section className="container1 py-14">
       <div className="flex justify-between items-center flex-wrap gap-4 mb-8">
         <div>
-          <h2 className="text-4xl md:text-5xl font-bold text-secondary">
+          <h2 className="text-4xl md:text-5xl -tracking-[3px] font-bold text-secondary">
             Leaders at AVMC
           </h2>
         </div>
         <button className="button-trans">View All</button>
       </div>
-      <div className="px-12">
+      <div className="px-12 md:px-0">
         <Carousel>
           <CarouselContent className="-ml-10 pb-28">
             {topics.map((topic, index) => (
@@ -60,7 +60,7 @@ function Leaders() {
                 key={index}
                 className="pl-10 md:basis-1/2 lg:basis-1/4"
               >
-                <div className="h-full w-full relative">
+                <div className="w-full relative">
                   <Image
                     src={topic.image}
                     alt={topic.title}
