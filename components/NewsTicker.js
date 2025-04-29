@@ -8,11 +8,10 @@ export default function NewsTicker() {
     () => [
       { text: "Admissions 2025-2026 - Applications Open", href: "/admissions" },
       { text: "AVMC (UG) 2025 - Applications Open", href: "/AVMC" },
-      { text: "AVMC (MBA) 2025 - Applications Open", href: "/AVMC" },
-      {
-        text: "Law (UG Integrated) 2025 - Applications Open",
-        href: "/law-admissions",
-      },
+      { text: "Admissions 2025-2026 - Applications Open", href: "/admissions" },
+      { text: "AVMC (UG) 2025 - Applications Open", href: "/AVMC" },
+      { text: "Admissions 2025-2026 - Applications Open", href: "/admissions" },
+      { text: "AVMC (UG) 2025 - Applications Open", href: "/AVMC" },
     ],
     []
   ); // Empty dependency array means this only initializes once

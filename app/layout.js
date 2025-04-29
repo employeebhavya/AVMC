@@ -6,6 +6,7 @@ import Footer from "@/components/Footer";
 import WhatsAppWidget from "@/components/WhatsAppWidget";
 import ChatbotWidget from "@/components/ChatbotWidget";
 import AccessibilityTools from "@/components/AccessibilityTools";
+import ScrollToTop from "@/components/ScrollToTop";
 
 const dmsans = DM_Sans({
   weight: ["300", "400", "500", "700"],
@@ -28,6 +29,7 @@ export default function RootLayout({ children }) {
         <Footer />
         <WhatsAppWidget />
         <ChatbotWidget />
+        <ScrollToTop />
       </body>
     </html>
   );
