@@ -8,7 +8,7 @@ function Accreditations() {
         <h2 className="text-4xl md:text-5xl -tracking-[3px] font-bold text-secondary mb-3">
           Accreditations & Rankings
         </h2>
-        <div className="flex items-center justify-center flex-wrap gap-4 mt-8">
+        <div className="hidden md:flex items-center justify-center flex-wrap gap-4 mt-8">
           <Image
             src={"/accred.png"}
             alt="image"
@@ -22,6 +22,15 @@ function Accreditations() {
             width={992}
             height={124}
             className="w-fit md:w-[578px] h-auto object-cover"
+          />
+        </div>
+        <div className="flex items-center justify-center flex-wrap gap-4 mt-8 md:hidden">
+          <Image
+            src={"/mobile-accred.png"}
+            alt="image"
+            width={207}
+            height={398}
+            className="w-fit h-auto object-cover"
           />
         </div>
       </div>
